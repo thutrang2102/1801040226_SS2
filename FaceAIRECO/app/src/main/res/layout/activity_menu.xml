@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+             <ImageView android:layout_width="120dp"
+                        android:layout_marginTop="150dp"
+                        android:layout_gravity="center"
+                        android:layout_height="120dp"
+             android:src="@drawable/focus"/>
+     <Button android:layout_width="180dp"
+             android:id="@+id/btndiemdanh"
+             android:layout_marginTop="30dp"
+             android:textSize="18sp"
+             android:textAllCaps="false"
+             android:text="Attendance check"
+             android:background="@drawable/custom_shape_button"
+             android:textColor="@android:color/background_light"
+             android:layout_height="50dp"
+     android:layout_gravity="center"/>
+    <Button android:layout_width="180dp"
+            android:id="@+id/btnquanly"
+            android:layout_marginTop="10dp"
+            android:textSize="18sp"
+            android:textAllCaps="false"
+            android:text="Manage"
+            android:background="@drawable/custom_shape_button"
+            android:textColor="@android:color/background_light"
+            android:layout_height="50dp"
+            android:layout_gravity="center"/>
+</LinearLayout>

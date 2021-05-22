@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <ImageView android:layout_width="360dp"
+                   android:src="@drawable/focus"
+
+                   android:layout_marginTop="50dp"
+                   android:layout_centerHorizontal="true"
+                   android:layout_height="480dp"
+        android:id="@+id/hinhanh"/>
+
+    <Button android:layout_width="150dp"
+            android:text="Camera"
+          android:background="@drawable/custom_shape_button"
+            android:layout_marginLeft="40dp"
+              android:layout_centerHorizontal="true"
+            android:textAllCaps="false"
+        android:textSize="16sp"
+            android:textColor="@android:color/background_light"
+            android:shadowColor="@android:color/background_light"
+            android:layout_marginTop="15dp"
+            android:layout_below="@+id/hinhanh"
+            android:layout_height="wrap_content"
+            android:id="@+id/btncamera"/>
+    <LinearLayout android:layout_width="match_parent"
+                  android:id="@+id/l1"
+                  android:layout_marginTop="10dp"
+                  android:layout_below="@+id/btncamera"
+
+                  android:orientation="horizontal"
+                  android:layout_height="wrap_content">
+        <View android:layout_width="wrap_content" android:layout_height="1.5dp"
+        android:background="@android:color/background_dark"
+        android:layout_weight="1"
+        android:layout_gravity="center"/>
+        <TextView android:layout_width="wrap_content"
+                  android:gravity="start"
+                  android:padding="8dp"
+                  android:layout_gravity="center"
+                  android:textSize="18sp"
+                  android:textColor="@android:color/background_dark"
+                  android:layout_marginRight="10dp"
+                  android:layout_marginLeft="10dp"
+                  android:text="Student Information"
+                  android:layout_centerHorizontal="true"
+                  android:layout_height="wrap_content"
+                  android:layout_above="@+id/btnok"/>
+        <View android:layout_width="wrap_content"
+            android:layout_height="1.5dp"
+              android:background="@android:color/background_dark"
+              android:layout_weight="1"
+              android:layout_gravity="center"/>
+    </LinearLayout>
+    <TextView android:layout_width="match_parent"
+              android:gravity="start"
+              android:padding="8dp"
+              android:textSize="18sp"
+              android:textColor="@android:color/background_dark"
+              android:layout_marginRight="10dp"
+              android:layout_marginLeft="10dp"
+              android:id="@+id/txttensv"
+              android:layout_marginTop="10dp"
+              android:layout_centerHorizontal="true"
+              android:layout_height="wrap_content"
+    android:layout_below="@+id/l1"/>
+    <TextView android:layout_width="match_parent"
+              android:gravity="start"
+              android:padding="8dp"
+              android:layout_marginTop="10dp"
+              android:layout_marginRight="10dp"
+              android:layout_marginLeft="10dp"
+              android:id="@+id/txtmasv"
+              android:textSize="18sp"
+              android:textColor="@android:color/background_dark"
+              android:layout_centerHorizontal="true"
+              android:layout_height="wrap_content"
+              android:layout_below="@+id/txttensv"/>
+</RelativeLayout>

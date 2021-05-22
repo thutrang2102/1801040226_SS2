@@ -1,0 +1,4 @@
+include ':app'
+rootProject.name = "FaceAIRECO"
+include ':openCVLibrary3413'
+include ':openCVLibrary343'

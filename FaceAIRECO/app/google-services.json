@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "553262137300",
+    "project_id": "facetramg",
+    "storage_bucket": "facetramg.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:553262137300:android:d4163e69359a0822c76041",
+        "android_client_info": {
+          "package_name": "com.trangface.faceai"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "553262137300-16ak8l6dg9d308acgum96gf9pq42jhp5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.trangface.faceai",
+            "certificate_hash": "c4dd449ba2143710edc7dfacccf7137825591146"
+          }
+        },
+        {
+          "client_id": "553262137300-82ig21vp74l3q6k7ab6af2msjk07o3nc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC84_F-QrdV0SNt1vNQBWN8kP1XKcoO2MA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "553262137300-82ig21vp74l3q6k7ab6af2msjk07o3nc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
